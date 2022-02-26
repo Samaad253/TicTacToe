@@ -1,7 +1,10 @@
 public class TicTacToe {
 
+    private static Board board;
+
     public static void main(String[] args) {
-	// write your code here
+	    board = new Board();
+	    System.out.println(board.toString());
 
     }
 }
